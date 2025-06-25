@@ -1,4 +1,16 @@
 # app.py
+username = input("Enter username:")
+password = input("Enter your ATM password: ")
+
+if username == "admin" and password =="1234":
+    print("✅ Access granted. Welcome to the Python Bank.")
+elif username ==  "admin":
+  print("❌ Incorrect password. Access denied.")
+  exit()
+elif password == "1234":
+  print("User name not found Access denied.")
+  exit()
+  
 balance = 1000
 
 print ("welcome to python bank")
