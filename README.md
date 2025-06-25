@@ -10,6 +10,9 @@ elif username ==  "admin":
 elif password == "1234":
   print("User name not found Access denied.")
   exit()
+else:
+  print("❌ Incorrect username and password. Access denied.")
+  exit()
   
 balance = 1000
 
