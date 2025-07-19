@@ -1,30 +1,37 @@
-# ATM Simulator – Python Project
-This is a simple console-based ATM simulation project written in Python. It allows a user to log in using a username and password, and then perform basic banking operations like checking balance, depositing money, and withdrawing money.
+# ATM Simulator - Python Project
 
-# Login Credentials
+This is a small Python project where I created an ATM system that works in the command line.  
+The user needs to log in using a username and password, and after that they can do basic banking stuff like check balance, deposit, and withdraw money.
 
- Username-  admin   Password-  1234  
-    
-- If incorrect login credentials are entered, access will be denied.
+---
 
-# Features
+## 🔐 Login Details
 
-- User authentication with username and password
-- Initial balance: ₹1000
-- Check account balance
-- Deposit money
-- Withdraw money (with balance check)
+- **Username:** admin  
+- **Password:** 1234  
+
+If the login is wrong, it won’t allow access.
+
+---
+
+## 💻 What It Can Do
+
+- Login system with username & password
+- Balance starts at ₹1000
+- Shows current balance
+- Lets you deposit money
+- Lets you withdraw money (checks for enough balance)
 - Exit option
-- Handles invalid menu choices
+- Shows message if wrong choice is entered
 
-## How to Run
+---
 
-# Requirements:
-- Python 3.x
+## ▶️ How to Run This Program
 
-# Steps:
-1. Clone the repository or download the `atm.py` file.
-2. Open terminal or command prompt.
-3. Run the program:
+1. Make sure Python is installed on your system.
+2. Download the `atm.py` file.
+3. Open terminal or command prompt in the folder where the file is.
+4. Run this command:
+
 ```bash
 python atm.py
