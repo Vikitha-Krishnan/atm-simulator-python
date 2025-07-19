@@ -3,13 +3,9 @@ This is a simple console-based ATM simulation project written in Python. It allo
 
 # Login Credentials
 
- Username | Password 
- --------------------
-admin    | 1234     
-
+ Username-  admin   Password-  1234  
+    
 - If incorrect login credentials are entered, access will be denied.
-
----
 
 # Features
 
@@ -21,9 +17,7 @@ admin    | 1234
 - Exit option
 - Handles invalid menu choices
 
----
-
-# How to Run
+## How to Run
 
 # Requirements:
 - Python 3.x
