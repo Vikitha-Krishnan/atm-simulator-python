@@ -1,14 +1,11 @@
 # ATM Simulator – Python Project
-
 This is a simple console-based ATM simulation project written in Python. It allows a user to log in using a username and password, and then perform basic banking operations like checking balance, depositing money, and withdrawing money.
-
----
 
 # Login Credentials
 
-| Username | Password |
-|----------|----------|
-| admin    | 1234     |
+ Username | Password 
+ --------------------
+admin    | 1234     
 
 - If incorrect login credentials are entered, access will be denied.
 
