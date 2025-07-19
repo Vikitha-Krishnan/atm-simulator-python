@@ -1,48 +1,39 @@
-username = input("Enter username:")
-password = input("Enter your ATM password: ")
+# 🏦 ATM Simulator – Python Project
 
-if username == "admin" and password == "1234":
-  print("Access granted. Welcome to the Python Bank.")
-elif username == "admin":
-  print("Incorrect password. Access denied.")
-  exit()
-elif password == "1234":
-  print("User name not found Access denied.")
-  exit()
-else:
-  print("Incorrect username and password. Access denied.")
-  exit()
+This is a simple console-based ATM simulation project written in Python. It allows a user to log in using a username and password, and then perform basic banking operations like checking balance, depositing money, and withdrawing money.
 
-balance = 1000
-while True:
-  print("welcome to python bank")
-  print("your current balance :₹ 1000")
-  print("1.check balance")
-  print("2.deposite money")
-  print("3.withdraw money")
-  print("4.Exit")
-  choice = int(input("enter your choise :"))
-  if choice == 1:
-    print("your current balance :₹", balance)
-    print("Thankyou for visiting python bank")
-  elif choice == 2:
-    amount = int(input("enter anount to deposite :"))
-    balance = balance + amount
-    print("your current balance:", balance)
-    print("thanl you for visiting python bank")
-  elif choice == 3:
-    amount = int(input("enter withdraw amount :"))
-    if amount > 1000:
-      print("insufficient balance")
-      print("Thank you for visiting python bank")
-    else:
-      balance -= amount
-      print("withdraw successfull")
-      print("your current balance:", balance)
-      print("Thankyou for visiting python bank:")
-  elif choice == 4:
-    print("Exit")
-    print("Thank you for visiting python bank")
-  else:
-    print("your choise is invalid please enter 1-4")
+---
 
+## 🔐 Login Credentials
+
+| Username | Password |
+|----------|----------|
+| admin    | 1234     |
+
+- If incorrect login credentials are entered, access will be denied.
+
+---
+
+## 💡 Features
+
+- User authentication with username and password
+- Initial balance: ₹1000
+- Check account balance
+- Deposit money
+- Withdraw money (with balance check)
+- Exit option
+- Handles invalid menu choices
+
+---
+
+## 🧑‍💻 How to Run
+
+### ✅ Requirements:
+- Python 3.x
+
+### 🛠️ Steps:
+1. Clone the repository or download the `atm.py` file.
+2. Open terminal or command prompt.
+3. Run the program:
+```bash
+python atm.py
